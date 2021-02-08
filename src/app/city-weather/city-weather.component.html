@@ -1,0 +1,11 @@
+<div class="info" [ngClass]="{
+    'hot': city.temperature >= 23,
+    'warm': (city.temperature < 23 && city.temperature >= 15),
+    'cold': city.temperature < 15
+  }">
+    <div class="btn-close" title="Close" (click)="removeCity()"></div>
+
+    <span class="weather" [attr.data-icon]="city.icon"></span>
+    <span class="temperature" data-icon="*">{{ city.temperature }}</span>
+    <span class="cityCountry">{{ city.name }}, {{ city.country }}</span>
+</div>

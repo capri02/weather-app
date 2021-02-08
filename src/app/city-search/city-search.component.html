@@ -1,0 +1,15 @@
+<div class="search-contents">
+    <div>
+        <h2>How’s the weather in...</h2>
+        <div class="search-input">
+            <input type="text" [(ngModel)]='filterCity' class="form-control" placeholder="Search city.." value="{{selectedCompany}}">
+            <button type="submit" (click)='SearchWeatherData()'></button>
+        </div>
+    </div>
+
+    <ul class="suggestion" *ngIf="filteredCity && filteredCity.length > 0">
+        <li *ngFor="let city of filteredCity" (click)="onCitySelect($event)">{{city.name}}</li>
+    </ul>
+</div>
+
+<app-city-display-list [cityWeatherData]="cityWeatherInfo.citiesWeather"></app-city-display-list>

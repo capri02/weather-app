@@ -1,0 +1,13 @@
+.display {
+    max-width: 70%;
+    margin: 55px auto 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding-bottom: 135px;
+  }
