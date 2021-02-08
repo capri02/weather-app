@@ -1,6 +1,9 @@
 # WeatherApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25. This project does not require any third party module to work. You only need to install the bootstrap.
+
+* Create "cities" folder. E.g. "src/cities". This folder is require to place the city.json file. Which this project will read and later make the calls for weather check for the selected city.
+
 
 ## Development server
 
