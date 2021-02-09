@@ -4,6 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 * Create "cities" folder. E.g. "src/cities". This folder is require to place the city.json file. Which this project will read and later make the calls for weather check for the selected city.
 
+* Compressed CITY.LIST.JSON.ZIP file has been placed in the repo. Please extract it and place it in the above mentioned directory.
 
 ## Development server
 
